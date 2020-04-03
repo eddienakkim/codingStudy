@@ -1,5 +1,3 @@
-
-
 ### 11 Students Do: Contribute to Private Class Repository [04-HTML_Git, from earlier](https://github.com/coding-boot-camp/FullStack-Lesson-Plans/tree/master/01-Class-Content/01-html-git-css/01-Activities/04-HTML_Git)(30 mins)
 
 * Navigate to the Private Class Repository on GitLab and "Fork" it.
@@ -28,41 +26,3 @@
 * Click on the big green button with the text "New merge request in UCLA-VIRT-FSF-PT-03-2020-U-LOL" in it, to create a new request.
 * Set the source branch to "your copy of the repository"/"master"
 * Set the target branch to "UCLA-Coding-Boot-Camp/ucla-virt-fsf-pt-03-2020-u-lol"/"master" (in this case, you'll be requesting me to merge your code into my "master" branch, from your "master" branch).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Instructor Do: Slack out the Video (5 mins)
-
-* After you have slacked out the code, once again remind your students that we also have online videos for them with which to review key activities.
-
-* These videos are a great way to catch up on material if you ever need to review them or if you feel like you are falling behind.
-
-* Slack out [Lesson 1.2 - Student Bio Layout](https://www.youtube.com/watch?v=kMBinXTCrXI).
-
-- - -
-
-### Tips and Tricks
-
-* On Windows devices, you can navigate to a specific folder in Git Bash using the File System Viewer, right clicking, and then selecting the option "Git Bash Here" from the dropdown menu.
-
-### Lesson Plan Feedback
-
-How did today's class go?
-
-[Went Well](http://www.surveygizmo.com/s3/4325914/FS-Curriculum-Feedback?format=pt&sentiment=positive&lesson=01.02)
-
-[Went Poorly](http://www.surveygizmo.com/s3/4325914/FS-Curriculum-Feedback?format=pt&sentiment=negative&lesson=01.02)
