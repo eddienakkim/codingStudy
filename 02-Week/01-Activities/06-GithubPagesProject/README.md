@@ -19,7 +19,12 @@ Make a simple website about your favorite type of animal.
 2. Once inside of the repository, create a new file and name it `index.html`
 3. Add your HTML into this file, save it, and then navigate into your repository's `Settings` tab.
 4. Scroll down to the GitHub Pages section and then, in the section labeled `Source`, select that you would like to use the `master` branch as your source.
-5. Navigate to `<<YOUR USERNAME>>.github.io/<<REPO NAME YOU CHOSE>>` and you will find that your new web page has gone live! (For example, if your GitHub username is `johndoe` and the project is `cssDemo`, your URL would be `johndoe.github.io/cssDemo`) 
+5. Navigate to `<<YOUR USERNAME>>.github.io/<<REPO NAME YOU CHOSE>>` and you will find that your new web page has gone live! (For example, if your GitHub username is `johndoe` and the project is `cssDemo`, your URL would be `johndoe.github.io/cssDemo`)
+
+### Important Correction:
+
+* If your site does not show up, after following the above guide, you'll probably need to put your site in the "gh-pages" branch on your repository, instead of the master branch.
+  * [This is detailed in the github pages documentation here](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 
 ### Bonuses
 
