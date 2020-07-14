@@ -4,9 +4,11 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
-    
     "express": "^4.16.3",
-    "mysql": "^2.16.0"
+    "mysql": "^2.16.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.3",
+    "sequelizer": "^1.1.4"
   },
   "devDependencies": {},
   "scripts": {
