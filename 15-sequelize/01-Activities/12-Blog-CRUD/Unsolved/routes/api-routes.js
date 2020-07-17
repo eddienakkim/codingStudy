@@ -16,7 +16,7 @@ module.exports = function(app) {
   app.get("/api/posts", function(req, res) {
     // Add sequelize code to find all posts, and return them to the user with res.json
     db.Post.findAll({}).then(function(dbPost) {
-      res.json(dbPost)
+      return res.json(dbPost)
     })
   });
 
@@ -29,7 +29,7 @@ module.exports = function(app) {
         id: req.params.category
       }
     }).then(function(dbPost) {
-      res.json(dbPost)
+      return res.json(dbPost)
   });
 })
 
@@ -42,7 +42,7 @@ module.exports = function(app) {
         id: req.params.id
       }
     }).then(function(dbPost) {
-      res.json(dbPost)
+      return res.json(dbPost)
   });
   
 
@@ -53,11 +53,10 @@ module.exports = function(app) {
     db.Post.create({
       title: req.body.title,
       body: req.body.body,
-      catergory: req.body.category,
-      }
-    ).then(function(dbPost) {
-      res.json(dbPost)
-    })
+      category: req.body.category
+    }).then(function(dbPost){
+      return res.json(dbPost);
+    });
   });
 
   // DELETE route for deleting posts
@@ -69,7 +68,7 @@ module.exports = function(app) {
         id: req.params.id
       }
     }).then(function(dbPost) {
-      res.json(dbPost);
+      return res.json(dbPost);
     });
   });
 
@@ -86,7 +85,9 @@ module.exports = function(app) {
         id: req.body.id
       }
     }).then(function(dbPost) {
-      res.json(dbPost);
+      return res.json(dbPost);
     });
   })
-})}
+})
+
+}
