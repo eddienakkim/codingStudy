@@ -9,3 +9,5 @@ body VARCHAR (225) NOT NULL,
 created_at DATETIME NOT NULL,
 
 PRIMARY KEY(id));
+
+select * from chirps
