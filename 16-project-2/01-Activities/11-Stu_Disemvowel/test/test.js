@@ -1,7 +1,7 @@
 var expect = require("chai").expect;
 var disemvowel = require("../disemvowel");
 
-describe("Disemvowel", function() {
+describe("disemvowel", function() {
   it("should remove all vowels from lowercase strings", function() {
     expect(disemvowel("this is lowcase")).to.equal("ths s lwcs");
   });
